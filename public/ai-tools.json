@@ -1,0 +1,366 @@
+[
+  {
+    "name": "ChatGPT",
+    "description": "世界で最も有名な対話型AIアシスタント。日常のアシスタンス、コーディング、創作活動など幅広い用途に使用可能",
+    "url": "https://chat.openai.com",
+    "icon": "https://chatgpt.com/favicon.ico",
+    "category": "ai"
+  },
+  {
+    "name": "Claude",
+    "description": "Anthropic社のAIアシスタント。プロフェッショナルなライティングとコーディングに特化し、協調的な問題解決が可能",
+    "url": "https://claude.ai",
+    "icon": "https://claude.ai/favicon.ico",
+    "category": "ai"
+  },
+  {
+    "name": "Gemini",
+    "description": "GoogleのAIアシスタント。動画生成機能と予算に優しいAI製品開発、Google製品との強力な統合が特徴",
+    "url": "https://gemini.google.com",
+    "icon": "https://gemini.google.com/favicon.ico",
+    "category": "ai"
+  },
+  {
+    "name": "Perplexity",
+    "description": "AI駆動のリサーチエンジン。複雑なトピックの深堀り調査と情報検索に特化した専門ツール",
+    "url": "https://perplexity.ai",
+    "icon": "https://perplexity.ai/favicon.ico",
+    "category": "ai"
+  },
+  {
+    "name": "Midjourney",
+    "description": "テキスト説明から高品質な画像を生成する強力な画像生成AI。アート制作とクリエイティブビジュアル作成に最適",
+    "url": "https://midjourney.com",
+    "icon": "https://midjourney.com/favicon.ico",
+    "category": "ai"
+  },
+  {
+    "name": "Stable Diffusion",
+    "description": "オープンソースの画像生成AI。テンプレート機能付きで無料利用可能な高品質画像生成ツール",
+    "url": "https://stability.ai",
+    "icon": "https://stability.ai/favicon.ico",
+    "category": "ai"
+  },
+  {
+    "name": "ElevenLabs",
+    "description": "自然な音声でテキストを読み上げるAI音声生成プラットフォーム。高品質な音声合成技術を提供",
+    "url": "https://elevenlabs.io",
+    "icon": "https://elevenlabs.io/favicon.ico",
+    "category": "ai"
+  },
+  {
+    "name": "Synthesia",
+    "description": "AI動画生成のリーダー。テキストから短時間で高品質な動画を作成できるプラットフォーム",
+    "url": "https://synthesia.io",
+    "icon": "https://synthesia.io/favicon.ico",
+    "category": "ai"
+  },
+  {
+    "name": "Jasper",
+    "description": "コンテンツ生成とマーケティング向けのAIライティングプラットフォーム。マーケティング資料作成に特化",
+    "url": "https://jasper.ai",
+    "icon": "https://jasper.ai/favicon.ico",
+    "category": "ai"
+  },
+  {
+    "name": "Notion AI",
+    "description": "創造性を高め、より速く書き、より効果的に整理できるNotion統合のAIアシスタント",
+    "url": "https://notion.so",
+    "icon": "https://notion.so/favicon.ico",
+    "category": "ai"
+  },
+  {
+    "name": "Canva AI",
+    "description": "デジタル創作と視覚デザインプラットフォーム。AI機能でデザイン作業を効率化",
+    "url": "https://canva.com",
+    "icon": "https://canva.com/favicon.ico",
+    "category": "ai"
+  },
+  {
+    "name": "Adobe Firefly",
+    "description": "画像編集、生成、強化のためのAIツール。Adobe製品群との強力な統合が特徴",
+    "url": "https://firefly.adobe.com",
+    "icon": "https://firefly.adobe.com/favicon.ico",
+    "category": "ai"
+  },
+  {
+    "name": "Framer AI",
+    "description": "コーディング不要でWebサイトを即座に作成・公開できるAI駆動デザインツール",
+    "url": "https://framer.com",
+    "icon": "https://framer.com/favicon.ico",
+    "category": "ai"
+  },
+  {
+    "name": "ClickUp Brain",
+    "description": "プロジェクトデータを分析し、タスク作成やプロジェクト要約を行うオールインワンAIプラットフォーム",
+    "url": "https://clickup.com",
+    "icon": "https://clickup.com/favicon.ico",
+    "category": "ai"
+  },
+  {
+    "name": "Rytr",
+    "description": "ソーシャルメディア投稿、商品説明、メール下書きなど短文コンテンツ生成に特化したAIライティングアシスタント",
+    "url": "https://rytr.me",
+    "icon": "https://rytr.me/favicon.ico",
+    "category": "ai"
+  },
+  {
+    "name": "Surfer SEO",
+    "description": "コンテンツ作成のためのSEO最適化ツール。検索エンジン最適化されたコンテンツ制作をサポート",
+    "url": "https://surferseo.com",
+    "icon": "https://surferseo.com/favicon.ico",
+    "category": "ai"
+  },
+  {
+    "name": "VEED",
+    "description": "オールインワンのAI動画生成・編集ツール。テキストから動画への変換機能を提供",
+    "url": "https://veed.io",
+    "icon": "https://veed.io/favicon.ico",
+    "category": "ai"
+  },
+  {
+    "name": "Crayo",
+    "description": "数秒でバイラル対応クリップを生成するAI動画編集・生成ツール",
+    "url": "https://crayo.ai",
+    "icon": "https://crayo.ai/favicon.ico",
+    "category": "ai"
+  },
+  {
+    "name": "Ideogram",
+    "description": "テキスト統合機能付きイラスト作成が可能な画像生成AI。テキストを含む画像生成に特化",
+    "url": "https://ideogram.ai",
+    "icon": "https://ideogram.ai/favicon.ico",
+    "category": "ai"
+  },
+  {
+    "name": "Durable",
+    "description": "統合マーケティングツール付きで数秒でプロフェッショナルなWebサイトを作成できるAIツール",
+    "url": "https://durable.co",
+    "icon": "https://durable.co/favicon.ico",
+    "category": "ai"
+  },
+  {
+    "name": "Zapier Agents",
+    "description": "数千のアプリにわたってAIエージェントに作業を教えることができる実験的なAIワークスペース",
+    "url": "https://zapier.com",
+    "icon": "https://zapier.com/favicon.ico",
+    "category": "agent"
+  },
+  {
+    "name": "Taskade AI Agents",
+    "description": "タスクの自動化、リサーチ、リアルタイムコラボレーションを行うAIエージェントの構築・訓練・デプロイが可能",
+    "url": "https://taskade.com",
+    "icon": "https://taskade.com/favicon.ico",
+    "category": "agent"
+  },
+  {
+    "name": "Manus",
+    "description": "ウェブサイト構築、メール作成、コーディング、データ収集などの複雑なタスクを独立して計画・実行する汎用マルチエージェント自律AIシステム",
+    "url": "https://manus.ai",
+    "icon": "https://manus.ai/favicon.ico",
+    "category": "agent"
+  },
+  {
+    "name": "OpenAI Operator",
+    "description": "フォーム入力、ショッピング、スケジューリングなどの反復的なWeb作業を視覚的に処理するブラウザベースエージェント",
+    "url": "https://openai.com/operator",
+    "icon": "https://openai.com/favicon.ico",
+    "category": "agent"
+  },
+  {
+    "name": "Salesforce Agentforce",
+    "description": "セールス、CRM、サービスワークフローの自動化を対象とした最新の自律エージェントプラットフォーム",
+    "url": "https://salesforce.com/products/agentforce",
+    "icon": "https://salesforce.com/favicon.ico",
+    "category": "agent"
+  },
+  {
+    "name": "Microsoft AutoGen",
+    "description": "モジュラーアーキテクチャとエラーハンドリング機能を持つ協調的マルチエージェントシステム構築のための包括的SDK",
+    "url": "https://microsoft.github.io/autogen",
+    "icon": "https://microsoft.com/favicon.ico",
+    "category": "agent"
+  },
+  {
+    "name": "LangGraph",
+    "description": "グラフベースのチェーニングでエージェントワークフローを構築できるステートフル編成フレームワーク",
+    "url": "https://langchain-ai.github.io/langgraph",
+    "icon": "https://github.com/favicon.ico",
+    "category": "agent"
+  },
+  {
+    "name": "CrewAI",
+    "description": "カスタム「クルー」（モジュラーエージェント）とエージェントチームを迅速にプロトタイピングするための柔軟なロールベースマルチエージェントフレームワーク",
+    "url": "https://crewai.com",
+    "icon": "https://crewai.com/favicon.ico",
+    "category": "agent"
+  },
+  {
+    "name": "Flowise",
+    "description": "ドラッグアンドドロップモジュールでAIエージェントを構築できるノーコードプラットフォーム。100以上のLLMをサポート",
+    "url": "https://flowiseai.com",
+    "icon": "https://flowiseai.com/favicon.ico",
+    "category": "agent"
+  },
+  {
+    "name": "Botpress",
+    "description": "統合とプラットフォーム間で主要変数とコンテキストを制御できるキャンバスベースビルダーを持つビジュアルワークフロービルダー",
+    "url": "https://botpress.com",
+    "icon": "https://botpress.com/favicon.ico",
+    "category": "agent"
+  },
+  {
+    "name": "Beam AI",
+    "description": "包括的で結束した自動化戦略のために複数のエージェントを統合するエージェンティックAIシステム",
+    "url": "https://beam.ai",
+    "icon": "https://beam.ai/favicon.ico",
+    "category": "agent"
+  },
+  {
+    "name": "n8n",
+    "description": "技術的および非技術的ワークフローの自動化のためのオープンソースワークフロー自動化ツール",
+    "url": "https://n8n.io",
+    "icon": "https://n8n.io/favicon.ico",
+    "category": "agent"
+  },
+  {
+    "name": "Anthropic MCP",
+    "description": "AIアシスタントとデータソース間の安全な双方向接続を構築するためのオープンスタンダード",
+    "url": "https://modelcontextprotocol.io",
+    "icon": "https://modelcontextprotocol.io/favicon.ico",
+    "category": "MCP"
+  },
+  {
+    "name": "Claude Desktop with MCP",
+    "description": "Model Context Protocol統合によりローカルMCPサーバーに接続できるClaude Desktopアプリ",
+    "url": "https://claude.ai/desktop",
+    "icon": "https://claude.ai/favicon.ico",
+    "category": "MCP"
+  },
+  {
+    "name": "GitHub MCP Server",
+    "description": "GitHubリポジトリとの統合を提供する事前構築MCPサーバー",
+    "url": "https://github.com/modelcontextprotocol/servers/tree/main/src/github",
+    "icon": "https://github.com/favicon.ico",
+    "category": "MCP"
+  },
+  {
+    "name": "Slack MCP Server",
+    "description": "Slackワークスペースとチャンネルアクセスを提供する事前構築MCPサーバー",
+    "url": "https://github.com/modelcontextprotocol/servers/tree/main/src/slack",
+    "icon": "https://github.com/favicon.ico",
+    "category": "MCP"
+  },
+  {
+    "name": "Google Drive MCP Server",
+    "description": "Google Driveファイルとフォルダーへのアクセスを提供する事前構築MCPサーバー",
+    "url": "https://github.com/modelcontextprotocol/servers/tree/main/src/gdrive",
+    "icon": "https://github.com/favicon.ico",
+    "category": "MCP"
+  },
+  {
+    "name": "Postgres MCP Server",
+    "description": "PostgreSQLデータベースとの統合を提供する事前構築MCPサーバー",
+    "url": "https://github.com/modelcontextprotocol/servers/tree/main/src/postgres",
+    "icon": "https://github.com/favicon.ico",
+    "category": "MCP"
+  },
+  {
+    "name": "Puppeteer MCP Server",
+    "description": "Webスクレイピングとブラウザ自動化機能を提供する事前構築MCPサーバー",
+    "url": "https://github.com/modelcontextprotocol/servers/tree/main/src/puppeteer",
+    "icon": "https://github.com/favicon.ico",
+    "category": "MCP"
+  },
+  {
+    "name": "Atlassian Remote MCP Server",
+    "description": "JiraとConfluence Cloudの顧客がClaude AIアシスタントから直接データにアクセスできるリモートMCPサーバー",
+    "url": "https://www.atlassian.com/blog/announcements/remote-mcp-server",
+    "icon": "https://atlassian.com/favicon.ico",
+    "category": "MCP"
+  },
+  {
+    "name": "Sourcegraph MCP Integration",
+    "description": "広範なコードベースとドキュメントへのアクセスを提供するSourcegraphのMCP統合",
+    "url": "https://sourcegraph.com",
+    "icon": "https://sourcegraph.com/favicon.ico",
+    "category": "MCP"
+  },
+  {
+    "name": "Docker MCP Support",
+    "description": "DockerとModel Context Protocolの統合によるAIアプリ構築の簡素化",
+    "url": "https://docker.com",
+    "icon": "https://docker.com/favicon.ico",
+    "category": "MCP"
+  },
+  {
+    "name": "Zed MCP Integration",
+    "description": "Zedエディターのプラットフォーム強化のためのMCP統合開発",
+    "url": "https://zed.dev",
+    "icon": "https://zed.dev/favicon.ico",
+    "category": "MCP"
+  },
+  {
+    "name": "Replit MCP Support",
+    "description": "ReplitプラットフォームでのMCP統合によるAI駆動開発環境",
+    "url": "https://replit.com",
+    "icon": "https://replit.com/favicon.ico",
+    "category": "MCP"
+  },
+  {
+    "name": "Codeium MCP Integration",
+    "description": "CodeiumのAIコーディングアシスタントとMCPの統合",
+    "url": "https://codeium.com",
+    "icon": "https://codeium.com/favicon.ico",
+    "category": "MCP"
+  },
+  {
+    "name": "AdCreative.ai",
+    "description": "高いコンバージョン率を持つ広告クリエイティブを生成するAI駆動ツール",
+    "url": "https://adcreative.ai",
+    "icon": "https://adcreative.ai/favicon.ico",
+    "category": "ai"
+  },
+  {
+    "name": "WellSaid Labs",
+    "description": "企業向けAI音声生成プラットフォーム。自然な音声合成技術を提供",
+    "url": "https://wellsaidlabs.com",
+    "icon": "https://wellsaidlabs.com/favicon.ico",
+    "category": "ai"
+  },
+  {
+    "name": "Dante AI",
+    "description": "カスタムAIチャットボット作成プラットフォーム。企業の特定ニーズに合わせたチャットボット構築",
+    "url": "https://dante-ai.com",
+    "icon": "https://dante-ai.com/favicon.ico",
+    "category": "ai"
+  },
+  {
+    "name": "Tugan.ai",
+    "description": "コンテンツをマーケティング資料に変換するAIツール。既存コンテンツの再活用に特化",
+    "url": "https://tugan.ai",
+    "icon": "https://tugan.ai/favicon.ico",
+    "category": "ai"
+  },
+  {
+    "name": "Deevid AI",
+    "description": "1分以内にテキストから高品質動画を作成するAI動画生成ツール",
+    "url": "https://deevid.ai",
+    "icon": "https://deevid.ai/favicon.ico",
+    "category": "ai"
+  },
+  {
+    "name": "AIApply",
+    "description": "就職活動の成功率を高めるマルチタスクツール。履歴書最適化と求人応募を自動化",
+    "url": "https://aiapply.co",
+    "icon": "https://aiapply.co/favicon.ico",
+    "category": "ai"
+  },
+  {
+    "name": "JobCopilot",
+    "description": "求人応募と面接準備を自動化するAIキャリアアシスタント",
+    "url": "https://jobcopilot.ai",
+    "icon": "https://jobcopilot.ai/favicon.ico",
+    "category": "ai"
+  }
+]
