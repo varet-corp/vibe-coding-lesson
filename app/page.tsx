@@ -1,6 +1,6 @@
-'use client';
+"use client";
 
-import { useState, useEffect, useMemo } from 'react';
+import { useState, useEffect, useMemo } from "react";
 
 interface AIApp {
   name: string;
@@ -10,7 +10,7 @@ interface AIApp {
   category: string;
 }
 
-type TabType = 'ai' | 'agent' | 'MCP';
+type TabType = "ai" | "agent" | "MCP";
 
 interface Tab {
   id: TabType;
@@ -19,29 +19,29 @@ interface Tab {
 }
 
 const tabs: Tab[] = [
-  { id: 'ai', label: 'AI', category: 'ai' },
-  { id: 'agent', label: 'エージェント', category: 'agent' },
-  { id: 'MCP', label: 'MCP', category: 'MCP' },
+  { id: "ai", label: "AI", category: "ai" },
+  { id: "agent", label: "エージェント", category: "agent" },
+  { id: "MCP", label: "MCP", category: "MCP" },
 ];
 
 export default function Home() {
   const [aiApps, setAiApps] = useState<AIApp[]>([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
-  const [activeTab, setActiveTab] = useState<TabType>('ai');
-  const [searchKeyword, setSearchKeyword] = useState('');
+  const [activeTab, setActiveTab] = useState<TabType>("ai");
+  const [searchKeyword, setSearchKeyword] = useState("");
 
   useEffect(() => {
     const fetchAiTools = async () => {
       try {
-        const response = await fetch('/api/ai-tools');
+        const response = await fetch("/api/ai-tools");
         if (!response.ok) {
-          throw new Error('Failed to fetch AI tools data');
+          throw new Error("Failed to fetch AI tools data");
         }
         const data = await response.json();
         setAiApps(data);
       } catch (err) {
-        setError(err instanceof Error ? err.message : 'Unknown error occurred');
+        setError(err instanceof Error ? err.message : "Unknown error occurred");
       } finally {
         setLoading(false);
       }
@@ -51,31 +51,32 @@ export default function Home() {
   }, []);
 
   const handleCardClick = (url: string) => {
-    window.open(url, '_blank');
+    window.open(url, "_blank");
   };
 
   const handleImageError = (e: React.SyntheticEvent<HTMLImageElement>) => {
-    e.currentTarget.src = '/no-image.png';
+    e.currentTarget.src = "/no-image.webp";
   };
 
   const filteredApps = useMemo(() => {
-    const currentTab = tabs.find(tab => tab.id === activeTab);
+    const currentTab = tabs.find((tab) => tab.id === activeTab);
     let filtered = aiApps;
-    
+
     // カテゴリーフィルター
     if (currentTab) {
-      filtered = filtered.filter(app => app.category === currentTab.category);
+      filtered = filtered.filter((app) => app.category === currentTab.category);
     }
-    
+
     // キーワード検索フィルター
     if (searchKeyword.trim()) {
       const keyword = searchKeyword.toLowerCase();
-      filtered = filtered.filter(app =>
-        app.name.toLowerCase().includes(keyword) ||
-        app.description.toLowerCase().includes(keyword)
+      filtered = filtered.filter(
+        (app) =>
+          app.name.toLowerCase().includes(keyword) ||
+          app.description.toLowerCase().includes(keyword)
       );
     }
-    
+
     return filtered;
   }, [aiApps, activeTab, searchKeyword]);
 
@@ -98,9 +99,13 @@ export default function Home() {
   return (
     <div className="min-h-screen bg-gray-100 py-12 px-4">
       <div className="max-w-6xl mx-auto">
-        <h1 className="text-4xl font-bold text-center mb-2 text-gray-800">AI アプリケーション一覧</h1>
-        <p className="text-center text-gray-600 mb-8">便利なAIツールをまとめて紹介</p>
-        
+        <h1 className="text-4xl font-bold text-center mb-2 text-gray-800">
+          AI アプリケーション一覧
+        </h1>
+        <p className="text-center text-gray-600 mb-8">
+          便利なAIツールをまとめて紹介
+        </p>
+
         {/* 検索フィールド */}
         <div className="flex justify-center mb-8">
           <div className="relative w-full max-w-md">
@@ -116,7 +121,7 @@ export default function Home() {
             </div>
           </div>
         </div>
-        
+
         {/* タブナビゲーション */}
         <div className="flex justify-center mb-12">
           <div className="flex bg-gray-100 rounded-2xl p-2 shadow-[inset_8px_8px_16px_#bebebe,inset_-8px_-8px_16px_#ffffff]">
@@ -126,8 +131,8 @@ export default function Home() {
                 onClick={() => setActiveTab(tab.id)}
                 className={`px-6 py-3 mx-1 rounded-xl font-semibold transition-all duration-300 ${
                   activeTab === tab.id
-                    ? 'bg-gray-100 text-blue-600 shadow-[8px_8px_16px_#bebebe,-8px_-8px_16px_#ffffff] transform scale-95'
-                    : 'text-gray-600 hover:text-blue-500 hover:shadow-[4px_4px_8px_#bebebe,-4px_-4px_8px_#ffffff]'
+                    ? "bg-gray-100 text-blue-600 shadow-[8px_8px_16px_#bebebe,-8px_-8px_16px_#ffffff] transform scale-95"
+                    : "text-gray-600 hover:text-blue-500 hover:shadow-[4px_4px_8px_#bebebe,-4px_-4px_8px_#ffffff]"
                 }`}
               >
                 {tab.label}
@@ -135,7 +140,7 @@ export default function Home() {
             ))}
           </div>
         </div>
-        
+
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {filteredApps.map((app, index) => (
             <div
@@ -147,15 +152,15 @@ export default function Home() {
                 <div className="text-center">
                   <div className="mb-4">
                     {app.icon ? (
-                      <img 
-                        src={app.icon} 
+                      <img
+                        src={app.icon}
                         alt={`${app.name} icon`}
                         onError={handleImageError}
                         className="w-16 h-16 mx-auto object-contain group-hover:scale-105 transition-transform duration-200 ease-out"
                       />
                     ) : (
-                      <img 
-                        src="/no-image.png" 
+                      <img
+                        src="/no-image.webp"
                         alt="No image available"
                         className="w-16 h-16 mx-auto object-contain group-hover:scale-105 transition-transform duration-200 ease-out"
                       />
